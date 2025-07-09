@@ -89,7 +89,7 @@ export default defineConfig({
   ],
   srcDir: 'content',
   srcExclude: ['**/parts/**'],
-  base: `/${conference.year}`,
+  base: '/coscup-test',
   cleanUrls: true,
   rewrites: {
     'zh_tw/:rest*': ':rest*',
